@@ -10,7 +10,7 @@
 
 <body>
     <div
-        class="container h-screen max-w-screen-2xl flex flex-col items-center justify-around bg-gray-900 text-slate-100">
+        class="container h-screen max-w-screen-2xl pt-5 flex flex-col items-center justify-between bg-gray-900 text-slate-100">
         <header>
             <h1 class="text-3xl text-slate-300 font-bold underline">Page with Tailwind</h1>
         </header>
@@ -19,8 +19,12 @@
                 <div class="flex flex-row items-center">
                     <img class="w-24 rounded-full" src="https://github.com/jose-ithalo.png" alt="User Avatar">
                     <div class="ml-5">
-                        <h3 class="font-semibold text-xl">José Ithalo</h3>
-                        <h4 class="text-indigo-300 pt-1">Full Stack Developer</h4>
+                        <h3 class="font-semibold text-xl cursor-default hover:text-2xl transition-all">
+                            José Ithalo
+                        </h3>
+                        <h4 class="text-indigo-300 pt-1 cursor-default hover:text-xl transition-all">
+                            Full Stack Developer
+                        </h4>
                     </div>
                 </div>
                 <div class="mt-6">
@@ -33,15 +37,23 @@
                 <div class="mt-6">
                     <h2 class="font-semibold mb-2 text-lg">Tecnologies</h2>
                     <ul class="list-disc list-inside pl-2">
-                        <li class="list-item text-slate-300">JavaScript</li>
-                        <li class="list-item text-slate-300">TypeScript</li>
-                        <li class="list-item text-slate-300">ReactJS</li>
-                        <li class="list-item text-slate-300">NodeJS</li>
+                        <li class="list-item text-slate-300 cursor-default hover:text-lg transition-all">
+                            JavaScript
+                        </li>
+                        <li class="list-item text-slate-300 cursor-default hover:text-lg transition-all">
+                            TypeScript
+                        </li>
+                        <li class="list-item text-slate-300 cursor-default hover:text-lg transition-all">
+                            ReactJS
+                        </li>
+                        <li class="list-item text-slate-300 cursor-default hover:text-lg transition-all">
+                            NodeJS
+                        </li>
                     </ul>
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="bg-gray-700 w-screen py-4 px-4">
             footer
         </footer>
     </div>
